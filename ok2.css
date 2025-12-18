@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+header {
+  background-image: url("coder destination logo.jpg");
+  background-size: cover;
+ 
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  text-align: center;
+}
+
+header img {
+  display: none;
+}
+
+header h1 {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+header p {
+  background-color: rgba(0, 0, 0, 0.6);
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+#intro {
+  text-align: center;
+  margin: 20px;
+}
+
+button {
+  padding: 8px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00adb5;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007f85;
+}
+
+section {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+img {
+  max-width: 80px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+}
+
+table caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+iframe {
+  display: block;
+  margin: 20px auto;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: black;
+}
